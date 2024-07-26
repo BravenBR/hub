@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #ebebeb;
+}
+
+a {
+    transition: color 0.2s;
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+header nav a:hover {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-radius: 10%;
+    color: red;
+}
+
+
+header {
+    background-color: #111111;
+    padding: 8px 24px;
+    border-bottom: 5px solid gray;
+}
+
+.containerH {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 24px;
+    justify-content: space-between;
+}
+
+.headerimg img{
+    border-radius: 50%;
+    display: flex;
+    width: 80px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;   
+}
+
+header li + li {
+    margin-left: 24px;
+}
+
+main {
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 24px;
+    border-bottom: 5px solid gray;
+    padding: 64px 24px 96px;
+    background-image: url(images/background.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.maincenter {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.centerh1 {
+    font-size: 50px;
+    padding-top: 24px;
+    font-family: cursive;
+}
+
+.centerh2 {
+    padding-top: 64px;
+    font-size: 25px;
+}
+
+.centerh2 p{
+    padding-top: 6px;
+    padding-left: 6px;
+    font-style: italic;
+}
+
+.centerh3 {
+    padding-top: 24px;
+    font-size: 25px;
+}
+
+.centerh3 p {
+    padding-top: 6px;
+    padding-left: 6px;
+    font-style: italic;
+}
+
+.centerh4 {
+    padding-top: 24px;
+    font-size: 25px;
+}
+
+.centerh4 p {
+    padding-top: 6px;
+    padding-left: 6px;
+    font-style: italic;
+}
+
+.centerp {
+    font-size: 20px;
+    padding-top: 100px;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
+
+footer {
+    background-color: #111111;
+    text-align: center;
+    color: #ebebeb;
+}
+
+footer img {
+    width: 110px;
+    height: 110px;
+}
+
+.footericons {
+    display: flex;
+    justify-content: center;
+}
